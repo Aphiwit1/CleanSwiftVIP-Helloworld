@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2D5AA4231B99B600C7EF04 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5A9E231B99B600C7EF04 /* HomePresenter.swift */; };
+		CB2D5AA5231B99B600C7EF04 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5A9F231B99B600C7EF04 /* HomeWorker.swift */; };
+		CB2D5AA6231B99B600C7EF04 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5AA0231B99B600C7EF04 /* HomeRouter.swift */; };
+		CB2D5AA7231B99B600C7EF04 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5AA1231B99B600C7EF04 /* HomeModels.swift */; };
+		CB2D5AA8231B99B600C7EF04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5AA2231B99B600C7EF04 /* HomeViewController.swift */; };
+		CB2D5AA9231B99B600C7EF04 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D5AA3231B99B600C7EF04 /* HomeInteractor.swift */; };
+		CB470770231B8AD10099FA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47076F231B8AD10099FA11 /* AppDelegate.swift */; };
+		CB470772231B8AD10099FA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB470771231B8AD10099FA11 /* ViewController.swift */; };
+		CB470775231B8AD10099FA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB470773231B8AD10099FA11 /* Main.storyboard */; };
+		CB470778231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB470776231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodeld */; };
+		CB47077A231B8AD20099FA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB470779231B8AD20099FA11 /* Assets.xcassets */; };
+		CB47077D231B8AD20099FA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB47077B231B8AD20099FA11 /* LaunchScreen.storyboard */; };
+		CB470788231B8AD20099FA11 /* ExVIPDataPassingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB470787231B8AD20099FA11 /* ExVIPDataPassingTests.swift */; };
+		CB470793231B8AD20099FA11 /* ExVIPDataPassingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB470792231B8AD20099FA11 /* ExVIPDataPassingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB470784231B8AD20099FA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB470764231B8AD10099FA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB47076B231B8AD10099FA11;
+			remoteInfo = ExVIPDataPassing;
+		};
+		CB47078F231B8AD20099FA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB470764231B8AD10099FA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB47076B231B8AD10099FA11;
+			remoteInfo = ExVIPDataPassing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB2D5A9E231B99B600C7EF04 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		CB2D5A9F231B99B600C7EF04 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		CB2D5AA0231B99B600C7EF04 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		CB2D5AA1231B99B600C7EF04 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		CB2D5AA2231B99B600C7EF04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB2D5AA3231B99B600C7EF04 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		CB47076C231B8AD10099FA11 /* ExVIPDataPassing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExVIPDataPassing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB47076F231B8AD10099FA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB470771231B8AD10099FA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB470774231B8AD10099FA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB470777231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExVIPDataPassing.xcdatamodel; sourceTree = "<group>"; };
+		CB470779231B8AD20099FA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB47077C231B8AD20099FA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB47077E231B8AD20099FA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB470783231B8AD20099FA11 /* ExVIPDataPassingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExVIPDataPassingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB470787231B8AD20099FA11 /* ExVIPDataPassingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExVIPDataPassingTests.swift; sourceTree = "<group>"; };
+		CB470789231B8AD20099FA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB47078E231B8AD20099FA11 /* ExVIPDataPassingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExVIPDataPassingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB470792231B8AD20099FA11 /* ExVIPDataPassingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExVIPDataPassingUITests.swift; sourceTree = "<group>"; };
+		CB470794231B8AD20099FA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB470769231B8AD10099FA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB470780231B8AD20099FA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB47078B231B8AD20099FA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2D5A9D231B99A500C7EF04 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D5A9E231B99B600C7EF04 /* HomePresenter.swift */,
+				CB2D5A9F231B99B600C7EF04 /* HomeWorker.swift */,
+				CB2D5AA0231B99B600C7EF04 /* HomeRouter.swift */,
+				CB2D5AA1231B99B600C7EF04 /* HomeModels.swift */,
+				CB2D5AA2231B99B600C7EF04 /* HomeViewController.swift */,
+				CB2D5AA3231B99B600C7EF04 /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB470763231B8AD10099FA11 = {
+			isa = PBXGroup;
+			children = (
+				CB47076E231B8AD10099FA11 /* ExVIPDataPassing */,
+				CB470786231B8AD20099FA11 /* ExVIPDataPassingTests */,
+				CB470791231B8AD20099FA11 /* ExVIPDataPassingUITests */,
+				CB47076D231B8AD10099FA11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB47076D231B8AD10099FA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB47076C231B8AD10099FA11 /* ExVIPDataPassing.app */,
+				CB470783231B8AD20099FA11 /* ExVIPDataPassingTests.xctest */,
+				CB47078E231B8AD20099FA11 /* ExVIPDataPassingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB47076E231B8AD10099FA11 /* ExVIPDataPassing */ = {
+			isa = PBXGroup;
+			children = (
+				CB4707A0231B8AE00099FA11 /* Scenes */,
+				CB47076F231B8AD10099FA11 /* AppDelegate.swift */,
+				CB470771231B8AD10099FA11 /* ViewController.swift */,
+				CB470773231B8AD10099FA11 /* Main.storyboard */,
+				CB470779231B8AD20099FA11 /* Assets.xcassets */,
+				CB47077B231B8AD20099FA11 /* LaunchScreen.storyboard */,
+				CB47077E231B8AD20099FA11 /* Info.plist */,
+				CB470776231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodeld */,
+			);
+			path = ExVIPDataPassing;
+			sourceTree = "<group>";
+		};
+		CB470786231B8AD20099FA11 /* ExVIPDataPassingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB470787231B8AD20099FA11 /* ExVIPDataPassingTests.swift */,
+				CB470789231B8AD20099FA11 /* Info.plist */,
+			);
+			path = ExVIPDataPassingTests;
+			sourceTree = "<group>";
+		};
+		CB470791231B8AD20099FA11 /* ExVIPDataPassingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB470792231B8AD20099FA11 /* ExVIPDataPassingUITests.swift */,
+				CB470794231B8AD20099FA11 /* Info.plist */,
+			);
+			path = ExVIPDataPassingUITests;
+			sourceTree = "<group>";
+		};
+		CB4707A0231B8AE00099FA11 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D5A9D231B99A500C7EF04 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB47076B231B8AD10099FA11 /* ExVIPDataPassing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB470797231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassing" */;
+			buildPhases = (
+				CB470768231B8AD10099FA11 /* Sources */,
+				CB470769231B8AD10099FA11 /* Frameworks */,
+				CB47076A231B8AD10099FA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExVIPDataPassing;
+			productName = ExVIPDataPassing;
+			productReference = CB47076C231B8AD10099FA11 /* ExVIPDataPassing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB470782231B8AD20099FA11 /* ExVIPDataPassingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB47079A231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassingTests" */;
+			buildPhases = (
+				CB47077F231B8AD20099FA11 /* Sources */,
+				CB470780231B8AD20099FA11 /* Frameworks */,
+				CB470781231B8AD20099FA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB470785231B8AD20099FA11 /* PBXTargetDependency */,
+			);
+			name = ExVIPDataPassingTests;
+			productName = ExVIPDataPassingTests;
+			productReference = CB470783231B8AD20099FA11 /* ExVIPDataPassingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB47078D231B8AD20099FA11 /* ExVIPDataPassingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB47079D231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassingUITests" */;
+			buildPhases = (
+				CB47078A231B8AD20099FA11 /* Sources */,
+				CB47078B231B8AD20099FA11 /* Frameworks */,
+				CB47078C231B8AD20099FA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB470790231B8AD20099FA11 /* PBXTargetDependency */,
+			);
+			name = ExVIPDataPassingUITests;
+			productName = ExVIPDataPassingUITests;
+			productReference = CB47078E231B8AD20099FA11 /* ExVIPDataPassingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB470764231B8AD10099FA11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = OnceKB;
+				TargetAttributes = {
+					CB47076B231B8AD10099FA11 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CB470782231B8AD20099FA11 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CB47076B231B8AD10099FA11;
+					};
+					CB47078D231B8AD20099FA11 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CB47076B231B8AD10099FA11;
+					};
+				};
+			};
+			buildConfigurationList = CB470767231B8AD10099FA11 /* Build configuration list for PBXProject "ExVIPDataPassing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB470763231B8AD10099FA11;
+			productRefGroup = CB47076D231B8AD10099FA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB47076B231B8AD10099FA11 /* ExVIPDataPassing */,
+				CB470782231B8AD20099FA11 /* ExVIPDataPassingTests */,
+				CB47078D231B8AD20099FA11 /* ExVIPDataPassingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB47076A231B8AD10099FA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB47077D231B8AD20099FA11 /* LaunchScreen.storyboard in Resources */,
+				CB47077A231B8AD20099FA11 /* Assets.xcassets in Resources */,
+				CB470775231B8AD10099FA11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB470781231B8AD20099FA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB47078C231B8AD20099FA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB470768231B8AD10099FA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB470772231B8AD10099FA11 /* ViewController.swift in Sources */,
+				CB2D5AA6231B99B600C7EF04 /* HomeRouter.swift in Sources */,
+				CB470770231B8AD10099FA11 /* AppDelegate.swift in Sources */,
+				CB2D5AA8231B99B600C7EF04 /* HomeViewController.swift in Sources */,
+				CB470778231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodeld in Sources */,
+				CB2D5AA5231B99B600C7EF04 /* HomeWorker.swift in Sources */,
+				CB2D5AA9231B99B600C7EF04 /* HomeInteractor.swift in Sources */,
+				CB2D5AA4231B99B600C7EF04 /* HomePresenter.swift in Sources */,
+				CB2D5AA7231B99B600C7EF04 /* HomeModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB47077F231B8AD20099FA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB470788231B8AD20099FA11 /* ExVIPDataPassingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB47078A231B8AD20099FA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB470793231B8AD20099FA11 /* ExVIPDataPassingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB470785231B8AD20099FA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB47076B231B8AD10099FA11 /* ExVIPDataPassing */;
+			targetProxy = CB470784231B8AD20099FA11 /* PBXContainerItemProxy */;
+		};
+		CB470790231B8AD20099FA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB47076B231B8AD10099FA11 /* ExVIPDataPassing */;
+			targetProxy = CB47078F231B8AD20099FA11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB470773231B8AD10099FA11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB470774231B8AD10099FA11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB47077B231B8AD20099FA11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB47077C231B8AD20099FA11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB470795231B8AD20099FA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB470796231B8AD20099FA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB470798231B8AD20099FA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB470799231B8AD20099FA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB47079B231B8AD20099FA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExVIPDataPassing.app/ExVIPDataPassing";
+			};
+			name = Debug;
+		};
+		CB47079C231B8AD20099FA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExVIPDataPassing.app/ExVIPDataPassing";
+			};
+			name = Release;
+		};
+		CB47079E231B8AD20099FA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExVIPDataPassing;
+			};
+			name = Debug;
+		};
+		CB47079F231B8AD20099FA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2748C2W49J;
+				INFOPLIST_FILE = ExVIPDataPassingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.ExVIPDataPassingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExVIPDataPassing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB470767231B8AD10099FA11 /* Build configuration list for PBXProject "ExVIPDataPassing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB470795231B8AD20099FA11 /* Debug */,
+				CB470796231B8AD20099FA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB470797231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB470798231B8AD20099FA11 /* Debug */,
+				CB470799231B8AD20099FA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB47079A231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB47079B231B8AD20099FA11 /* Debug */,
+				CB47079C231B8AD20099FA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB47079D231B8AD20099FA11 /* Build configuration list for PBXNativeTarget "ExVIPDataPassingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB47079E231B8AD20099FA11 /* Debug */,
+				CB47079F231B8AD20099FA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB470776231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB470777231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodel */,
+			);
+			currentVersion = CB470777231B8AD10099FA11 /* ExVIPDataPassing.xcdatamodel */;
+			path = ExVIPDataPassing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB470764231B8AD10099FA11 /* Project object */;
+}
