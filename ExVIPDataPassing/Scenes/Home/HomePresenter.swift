@@ -26,7 +26,7 @@ class HomePresenter: HomePresentationLogic
   // MARK: Do something
   
     func presentShowText(response: Home.showText.Response) {
-        let showText = "Hello \(response.username)"
+        let showText = "Hello World \(response.username)"
         
         let viewModel = Home.showText.ViewModel(usernameMessage: showText)
         viewController?.displayUsername(viewModel: viewModel)

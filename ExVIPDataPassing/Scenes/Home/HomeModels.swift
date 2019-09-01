@@ -20,7 +20,7 @@ enum Home
   {
     struct Request
     {
-        var username: String
+          var username: String
     }
     struct Response
     {

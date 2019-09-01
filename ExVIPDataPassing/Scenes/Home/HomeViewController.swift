@@ -71,7 +71,7 @@ class HomeViewController: UIViewController, HomeDisplayLogic
   override func viewDidLoad()
   {
     super.viewDidLoad()
-//    doSomething()
+
   }
   
   // MARK: Do something
@@ -80,8 +80,7 @@ class HomeViewController: UIViewController, HomeDisplayLogic
   @IBOutlet weak var usernameLabel: UILabel!
     
     @IBAction func submitButton() {
-        let request = Home.showText.Request(username: "")
-        interactor?.getShowTextCondition(request: request)
+        getShowTextCondition()
     }
   
   /*func doSomething()
@@ -89,14 +88,16 @@ class HomeViewController: UIViewController, HomeDisplayLogic
     let request = Home.Something.Request()
     interactor?.doSomething(request: request)
   }*/
+    
     func getShowTextCondition() {
-        let request = Home.showText.Request(username: "")
+        var name = usernameTextField.text!
+        let request = Home.showText.Request(username: name)
         interactor?.getShowTextCondition(request: request)
     }
   
     
     func displayUsername(viewModel: Home.showText.ViewModel) {
-        usernameLabel.text =  usernameTextField.text
+        usernameLabel.text = viewModel.usernameMessage
     }
  /* func displaySomething(viewModel: Home.Something.ViewModel)
   {

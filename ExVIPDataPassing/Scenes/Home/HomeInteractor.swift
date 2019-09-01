@@ -14,13 +14,12 @@ import UIKit
 
 protocol HomeBusinessLogic
 {
-//  func doSomething(request: Home.Something.Request)
     func getShowTextCondition(request: Home.showText.Request)
 }
 
 protocol HomeDataStore
 {
-  //var name: String { get set }
+  var name: String { get set }
 }
 
 class HomeInteractor: HomeBusinessLogic, HomeDataStore
@@ -30,21 +29,11 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
   var presenter: HomePresentationLogic?
   var worker: HomeWorker?
   var name: String = ""
+ 
   
-  // MARK: Do something
-  
- /* func doSomething(request: Home.Something.Request)
-  {
-    worker = HomeWorker()
-    worker?.doSomeWork()
-    
-    let response = Home.Something.Response()
-    presenter?.presentSomething(response: response)
-  }*/
-    
     func getShowTextCondition(request: Home.showText.Request) {
+        name = request.username
         let response = Home.showText.Response(username: name)
-//        presenter?.presentShowTextInformation(response: response)
         presenter?.presentShowText(response: response)
     }
 }
